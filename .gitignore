@@ -1,0 +1,12 @@
+# editors
+*.swp
+*~
+sample.yaml
+README.rst
+
+
+# build
+/initial_build/
+/build*/
+/build/
+/build1/

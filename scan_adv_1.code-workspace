@@ -1,0 +1,61 @@
+{
+	"folders": [
+		{
+			"path": "../scan_adv_1"
+		},
+		{
+			"name": "optimisation_v0.1",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"bluetooth.h": "c",
+			"hci_vs_sdc.h": "c",
+			"addr.h": "c",
+			"system_error": "c",
+			"array": "c",
+			"vector": "c",
+			"xstring": "c",
+			"xutility": "c",
+			"string": "c",
+			"string_view": "c",
+			"string.h": "c",
+			"cstdlib": "c",
+			"xlocinfo": "c",
+			"memory": "c",
+			"hci.h": "c",
+			"stdlib.h": "c",
+			"kernel.h": "c",
+			"ring_buffer.h": "c",
+			"gpio.h": "c",
+			"log.h": "c",
+			"devicetree.h": "c",
+			"atomic.h": "c",
+			"gap.h": "c",
+			"stdio.h": "c",
+			"conn.h": "c",
+			"compare": "c",
+			"type_traits": "c",
+			"format": "c",
+			"functional": "c",
+			"list": "c",
+			"ostream": "c",
+			"xhash": "c",
+			"xlocale": "c",
+			"xlocnum": "c",
+			"xmemory": "c",
+			"limits": "c",
+			"ratio": "c",
+			"streambuf": "c",
+			"tuple": "c",
+			"bluetooth_manager.h": "c",
+			"buf.h": "c",
+			"device.h": "c",
+			"net_buf.h": "c"
+		},
+		"nrf-connect.applications": [
+			"${workspaceFolder}"
+		]
+	}
+}
