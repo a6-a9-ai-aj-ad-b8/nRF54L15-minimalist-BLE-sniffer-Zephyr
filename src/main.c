@@ -28,9 +28,10 @@ int main(){
         return -1;
     }
     while (true){
-        scan(100, 15, 80000);
+        scan(107, 17, 80000);
         k_msleep(2);
-        scan(100, 15, 80000);
+        scan(89, 19, 80000);
+        k_msleep(2);
     }
     return 0;
 }

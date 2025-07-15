@@ -18,23 +18,18 @@
 /*::........::::::..:::::::::......:::..::::..::....::..::::::::..::::::::........::..:::::..::*/
 /***********************************************************************************************/
 
-
-
-
-
-
 #include "BT_sniffer.h"
 LOG_MODULE_REGISTER(detector, LOG_LEVEL_INF);
 
 #define DEVICE_NAME CONFIG_BT_DEVICE_NAME
 #define DEVICE_NAME_LEN (sizeof(DEVICE_NAME)-1)
 
-// ==== TABLE UUIDs ====
 typedef struct {
     uint16_t uuid;
     const char* description;
 } uuid16_desc_t;
 
+//     ===== TABLE UUIDs =====
 static const uuid16_desc_t uuid16_table[] = {
     { 0x1800, "Generic Access" },
     { 0x1801, "Generic Attribute" },
@@ -61,12 +56,12 @@ static const char* uuid16_lookup(uint16_t uuid) {
     return "Unknown UUID";
 }
 
-// ==== TABLE MANUFACTURERS ====
 typedef struct {
     uint16_t company_id;
     const char* name;
 } company_id_desc_t;
 
+// ===== TABLE MANUFACTURERS =====
 static const company_id_desc_t company_table[] = {
     { 0x004C, "Apple, Inc." },
     { 0x0006, "Microsoft" },

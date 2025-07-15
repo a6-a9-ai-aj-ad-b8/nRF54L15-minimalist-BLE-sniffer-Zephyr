@@ -3,7 +3,6 @@
 
 #include <zephyr/kernel.h>
 #include <zephyr/logging/log.h>
-#include <zephyr/device.h>
 #include <zephyr/bluetooth/bluetooth.h>
 #include <stdio.h>
 #include <zephyr/sys/poweroff.h>
