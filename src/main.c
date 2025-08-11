@@ -28,9 +28,9 @@ int main(){
         return -1;
     }
     while (true){
-        scan(107, 17, 80000);
+        scan(61, 31, 80000);
         k_msleep(1);
-        scan(139, 19, 80000);
+        scan(89, 59, 80000);
         k_msleep(1);
     }
     return 0;
